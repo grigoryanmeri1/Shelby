@@ -1,0 +1,12 @@
+
+@import '../mixins.scss';
+
+ .menu1{
+  @include menu();
+  .wrap{
+    @include wrap();
+  }
+  p{
+    margin-bottom: .7rem;
+  }
+ }

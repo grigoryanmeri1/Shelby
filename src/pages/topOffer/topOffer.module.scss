@@ -1,0 +1,54 @@
+@import '../header/variables.scss';
+@import '../header/mixins.scss';
+
+h2{
+  @include h2();
+}
+ 
+.container{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 2rem;
+  box-sizing: border-box;
+}
+
+.box{
+  position: relative;
+  overflow: hidden;
+  img{
+    width: 100%;
+  }
+  &:hover img{
+    transition: .3s linear;
+    transform: scale(1.1);  
+  }
+  &:hover .content{
+    display: flex;
+  }
+}
+
+.content{
+  position: absolute;
+  top: 0;  left: 0;  right: 0;  bottom: 0;
+  background-color: rgba(0, 0, 0, .4);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  display: none;
+
+  p{
+    @include p();
+    color: white;
+  }
+  h3{
+    @include h2();
+    color: white;
+    margin-bottom: 0;
+  }
+}
+ 
+
+@media(max-width: 1000px){
+  
+}

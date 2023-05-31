@@ -1,0 +1,47 @@
+{
+  "photos": [
+    { "id": 1, "title": "2016 best summer destinations", "photo": "https://shelby.am/wp-content/uploads/2016/07/travel-24.jpg" },
+    { "id": 2, "title": "fantastic sales on accomondation", "photo": "https://shelby.am/wp-content/uploads/2016/07/travel-25.jpg" },
+    { "id": 3, "title": "explore south america under $1000", "photo": "https://shelby.am/wp-content/uploads/2016/07/travel-1.jpg" }
+  ], 
+  "header":[
+    { "id": 4, "h1": "առցանց ամրագրում", "h2": "փաթեթներ", "h3": "թողնել հարցում", "h4": "թեժ առաջարկ", "h5" : "մեր մասին", "phone": "Call Us: 5556785", "photo": "https://shelby.am/wp-content/uploads/2021/11/shelby-logo-1-e1656164210911.png" }
+  ],
+  "menu":[
+    { "id": 5, "h1": "բանկային փոխանցումով", "h2": "բանկային առցանց քարտով", "h3": "վճարային համակարգերով", "h4": "ապառիկ" },
+    { "id": 6, "h1": "փնտրման համակարգ" },
+    { "id": 7, "h1": "հրապարակումներ" }
+  ],
+  "sale": [
+    { "id": 8, "title": "SPIRITUAL BALI ISLANDS", "description": "For the vast majority of its history, agriculture can be described as having been organic; only during the 20th century was a large supply.","button":"see promotions", "photo": "https://shelby.am/wp-content/uploads/2016/07/travel-2.jpg", "header":"2016 TOP SUMMER DESTINATIONS NOW ON SALE"},
+    { "id": 9, "title": "MAGNIFICENT CITY OF PARIS", "description": "For the vast majority of its history, agriculture can be described as having been organic; only during the 20th century was a large supply.","button":"see promotions", "photo": "https://shelby.am/wp-content/uploads/2016/07/travel-3.jpg"},
+    { "id": 10, "title": "MYSTERIOUS PYRAMIDS", "description": "For the vast majority of its history, agriculture can be described as having been organic; only during the 20th century was a large supply.","button":"see promotions", "photo": "https://shelby.am/wp-content/uploads/2016/07/travel-4.jpg"}
+  ],
+  "beach" : [
+    { "id": 11,"photo" : "https://bridge73.qodeinteractive.com/wp-content/uploads/2016/07/travel-5.jpg?id=26" ,"descr": "For the vast majority of its history, agriculture can be described as having been organicorganic", "header" : "2016 TOP SUMMER DESTINATIONS NOW ON SALE", "title": "AVAILABLE DESTINATIONS", "description": "For the vast majority of its history, agriculture can be described.","from": 1, "to": 50},
+    { "id": 12, "title": "AVAILABLE DESTINATIONS", "description": "For the vast majority of its history, agriculture can be described.","from": 1, "to": 250},
+    { "id": 13, "title": "AVAILABLE DESTINATIONS", "description": "For the vast majority of its history, agriculture can be described.","from": 1, "to": 12},
+    { "id": 14, "title": "AVAILABLE DESTINATIONS", "description": "For the vast majority of its history, agriculture can be described.","from": 1, "to": 78}
+  ],
+  "topOffer" : [
+    { "id": 15, "photo" : "https://shelby.am/wp-content/uploads/2016/07/travel-6.jpg" ,"title" : "Thailand & Vietnam", "description": "Southeast Asia", "header" : "2016 TOP SUMMER DESTINATIONS NOW ON SALE"},
+    { "id": 16, "photo" : "https://shelby.am/wp-content/uploads/2016/07/travel-7.jpg" ,"title" : "Bali & Borneo", "description": "Southeast Asia"},
+    { "id": 17, "photo" : "https://shelby.am/wp-content/uploads/2016/07/travel-8.jpg" ,"title" : "Mountains of Peru", "description": "South America"},
+    { "id": 18, "photo" : "https://shelby.am/wp-content/uploads/2016/07/travel-9.jpg" ,"title" : "Egypt", "description": "Northeast Africa"},
+    { "id": 19, "photo" : "https://shelby.am/wp-content/uploads/2016/07/travel-10.jpg" ,"title" : "New York", "description": "Northeast America"},
+    { "id": 20, "photo" : "https://shelby.am/wp-content/uploads/2016/07/travel-11.jpg" ,"title" : "Mountains of Peru", "description": "South America"},
+    { "id": 21, "photo" : "https://shelby.am/wp-content/uploads/2016/07/travel-12.jpg" ,"title" : "France", "description": "North France"},
+    { "id": 22, "photo" : "https://shelby.am/wp-content/uploads/2016/07/travel-7.jpg" ,"title" : "Bali & Borneo", "description": "Southeast Asia"},
+    { "id": 23, "photo" : "https://shelby.am/wp-content/uploads/2016/07/travel-8.jpg" ,"title" : "Mountains of Peru", "description": "South America"}
+  ],
+  "about" : [
+    { "id": 24, "photo" : "https://shelby.am/wp-content/uploads/2016/07/travel-23.jpg" ,"header" : "2016 TOP SUMMER DESTINATIONS NOW ON SALE", "description": "For the vast majority of its history, agriculture can be described new products agriculture can be described as having been organi as having been organic of its history,was a large supply of new products agriculture can be described as having been organic; only during the 20th century was a large supply of new products.", "button":"location"},
+    { "id": 25, "photo" : "https://shelby.am/wp-content/uploads/2016/07/travel-22.jpg" ,"header" : "2016 TOP SUMMER DESTINATIONS NOW ON SALE", "description": "For the vast majority of its history, agriculture can be described new products agriculture can be described as having been organi as having been organic of its history,was a large supply of new products agriculture can be described as having been organic; only during the 20th century was a large supply of new products.", "button": "location"}
+  ],
+  "footer" : [
+    { "id": 26,   "photo" : "https://shelby.am/wp-content/uploads/2021/11/shelby-logo-1.png", "description": "The SHELBY company is a tour operator for inbound tourism, has good price offers for the hotel base and is specialized in work both in the external and in the domestic tourism market, cooperating with the most reliable foreign partners.", "phone" : "Call us: (011) 508484", "email": "shelby.am.co@gmail.com", "address": "Amiryan 18 - Teryan 54/3 - Yerevan Mall-MegaMall Yerevan, Armenia", "descr": "Copyright Qode Interactive. This demo is a part of the", "subDescr":"Bridge theme."},
+    { "id": 27,   "header" : "Additional Links", "text1": "Առցանց ամրագրում", "text1_1" : "Բանկային փոխանցումով", "text1_2": "Բանկային առցանց քարտով", "text1_3": "Վճարային համակարգերով", "text1_4": "Ապառիկ", "text2": "Փաթեթներ", "text2_1": "Փնտրման համակարգ", "text3":"Թողնել հարցում", "text4": "Թեժ առաջարկներ", "text4_1": "Հրապարակումներ", "text5": "Մեր մասին"},
+    { "id": 28,   "header" : "Additional Links", "text1": "Առցանց ամրագրում", "text1_1" : "Բանկային փոխանցումով", "text1_2": "Բանկային առցանց քարտով", "text1_3": "Վճարային համակարգերով", "text1_4": "Ապառիկ", "text2": "Փաթեթներ", "text2_1": "Փնտրման համակարգ", "text3":"Թողնել հարցում", "text4": "Թեժ առաջարկներ", "text4_1": "Հրապարակումներ", "text5": "Մեր մասին"},
+    { "id": 29,   "header" : "Our Instagram Feed"}
+  ]
+}  

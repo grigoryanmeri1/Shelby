@@ -1,0 +1,160 @@
+@import './variables.scss';
+@import './mixins.scss';
+ 
+@mixin block{
+  display: flex;
+  justify-content: space-around;
+  text-transform: uppercase;
+  font-family: monospace;
+  font-weight: 600;
+  font-size: 1rem;
+}
+
+@mixin blockSize{
+  text-align: center;
+  padding: 0 1rem;
+  margin: 1rem 0
+}
+
+@mixin hover{
+  color: $hoverColor;
+  cursor: pointer;
+  display: block;
+}
+
+.container{
+  @include block();
+  padding-top: 2rem ;
+  position: absolute;
+  top: 0;left: 0;right: 0;
+  z-index: 1000000;
+  color: white;
+}
+
+.container.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 100000;
+  background-color: rgb(255, 255, 255);
+  @include block();
+  color: black;
+  justify-content: start;
+  
+  .contacts{
+    display: none;
+  }
+}
+ 
+
+.navbar{
+  @include block();
+}
+
+.pages{ 
+  @include block();
+  img{
+    width: 50px;
+    height: 55px;
+  }
+  .menu-bar{
+    font-size: 1.8rem;
+    color: white;
+    cursor: pointer;
+    display: none;
+
+    &:hover{
+      color: $hoverColor;
+    }
+  }
+  .h1, .h2, .h3, .h4 {
+    .menu1, .menu2, .menu3{
+      display: none;
+    }
+    &.active{
+      .active{
+        display: block;
+      }
+    } 
+    border-right: .1rem solid rgba(135, 195, 227, 0.5);
+    @include blockSize();
+    font-size: 1.1rem;
+    height: 1rem;
+    
+    &:hover{
+      @include hover();
+    }   
+     
+  }
+  .h5{
+    @include blockSize();
+    &:hover{
+      @include hover();
+    } 
+  }
+}
+
+.contacts{
+  @include block();
+  @include blockSize();
+  font-weight: 500;
+  text-transform: none;
+  font-family: 'Times New Roman', Times, serif;
+  margin: 0;
+
+  .social-networks{
+    @include block();
+    @include blockSize();
+    font-size: .8rem;
+    div{
+      margin-right: 1.2rem;
+      &:hover{
+        @include hover();
+      } 
+    }
+  }
+  .phone-icon{
+    @include blockSize();
+    &:hover{
+      @include hover();
+    } 
+    border-right: .1rem solid rgba(135, 195, 227, 0.5);
+    span{
+      font-size: 1rem;
+    }
+  }
+ 
+}
+
+
+@media(max-width: 1000px){
+  .container{
+    background-color: $black;
+  }
+
+  .pages .menu-bar{
+    display: initial;
+  }
+
+  .pages .navbar{
+    display: none;
+    position: absolute;
+    top: 100%; left: 0; right: 0;
+    div{
+      text-align: left;
+      background-color: $black;
+      padding: 2rem;
+      margin: 0;
+      
+    }
+    &.active{
+      display: initial;
+    }
+  }
+
+  .pages{
+    width: 45vw;
+    display: flex;
+    justify-content: space-between;
+  }
+}
